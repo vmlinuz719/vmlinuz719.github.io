@@ -21,13 +21,11 @@ body {
 	text-shadow: 2px 2px 3px #000000;
 }
 
-@media (orientation: portrait) {
+@media (pointer: coarse) and (orientation: portrait) {
 #header div {
-	display: inline-block;
 	background: #000000C0;
-	width: fit-content(40%);
-	padding: 50px;
-	border-radius: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 }
 
