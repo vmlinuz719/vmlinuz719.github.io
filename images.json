@@ -1,0 +1,30 @@
+[
+	{
+		"image": "desktop.png",
+		"description": "My preferred UNIX desktop, Common Desktop Environment on OpenBSD. (Just kidding, I usually use KDE nowadays - but this is more than usable, despite being older than I am! Go check it out and compile it for yourself.)",
+		"url": "https://sourceforge.net/projects/cdesktopenv/"
+	},
+	{
+		"image": "vx.png",
+		"description": "Vx, a simple Motif program manager. Pick a program group, choose your program, optionally edit the command and go. Implements the Model-View-Controller paradigm... in plain C.",
+		"url": "https://github.com/vmlinuz719/Vx"
+	},
+	{
+		"image": "dtapm.png",
+		"description": "DtApm is a Motif-based applet for OpenBSD and Common Desktop Environment, reusing code from the 'apm' command to monitor system battery life.",
+		"url": "https://github.com/vmlinuz719/DtApm"
+	},
+	{
+		"image": "virtualconsole.png",
+		"description": "GenOS demonstrating its support for virtual consoles. Both the video display and serial TTY are accessed by the same interface."
+	},
+	{
+		"image": "genos.png",
+		"description": "The current state of my hobbyist operating system - I will probably redo most of it from scratch someday.",
+		"url": "https://github.com/vmlinuz719/genos"
+	},
+	{
+		"image": "background.jpg",
+		"description": "Header background image for this very website!"
+	}
+]

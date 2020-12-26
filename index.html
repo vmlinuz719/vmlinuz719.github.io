@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" name="viewport"
+			content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="header.js"></script>
+		<script type="text/javascript" src="gallerize.js"></script>
+		<script type="text/javascript" src="getjson.js"></script>
+		<link rel="stylesheet" href="gallerize.css">
+		<link rel="stylesheet" href="site.css">
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<script>
+				document.getElementById("wrapper")
+					.appendChild(header());
+			</script>
+			
+			<div id="page">
+			</div>
+			
+		</div>
+
+		<script>
+			getJSON("images.json", function(err, data) {
+				if (err !== null) {
+					console.log(err);
+				} else {
+					data.forEach(function(item) {
+						let link = item.url;
+						let newTab = true;
+						if (link == null) {
+							link = item.image;
+							newTab = false;
+						}
+						let gallerize = new Gallerize
+							(item.description, item.image, link);
+						if (newTab) {
+							gallerize.a.setAttribute("target", "_blank");
+							gallerize.a.setAttribute("rel", "noopener noreferrer");
+						}
+						document.getElementById("page").appendChild(gallerize.display());
+					});
+				}
+			});
+		</script>
+	</body>
+</html>

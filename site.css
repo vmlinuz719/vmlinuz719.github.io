@@ -1,0 +1,80 @@
+body {
+	margin: 0px;
+	font-family: arial;
+	background: linear-gradient(#5a5a6c, #000000);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#wrapper {
+	min-height: 100%;
+}
+
+#header {
+	text-align: center;
+	color: white;
+	padding: 60px;
+	margin-bottom: 1px;
+	background-image: url("background.jpg");
+	background-position: center;
+	background-size: cover;
+	text-shadow: 2px 2px 3px #000000;
+}
+
+#header div {
+	display: inline-block;
+	background: #000000C0;
+	width: fit-content(40%);
+	padding: 50px;
+	border-radius: 25px;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+a:active {
+	color: blue;
+}
+
+#page {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#about {
+	text-align: left;
+	align: center;
+	color: white;
+	padding: 60px;
+	margin-bottom: 1px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#about iframe {
+	display: block;
+	align: center;
+	border: 0;
+	max-width: 100%;
+}
+
+#about h1,h2,h3 {
+	text-align: center;
+}
+
+#copyright {
+	font-size: 0.6em;
+	text-shadow: none;
+}
+
+.caption {
+	font-size: 0.8em;
+}
