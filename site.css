@@ -10,6 +10,19 @@ body {
 	min-height: 100%;
 }
 
+@media (pointer: coarse) and (orientation: portrait) {
+#header {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+}
+
+@media (pointer: fine), (orientation: landscape) {
+#header {
+	padding: 60px;
+}
+}
+
 #header {
 	text-align: center;
 	color: white;
