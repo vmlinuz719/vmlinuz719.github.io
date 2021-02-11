@@ -7,7 +7,7 @@ function header() {
 	div.appendChild(div2);
 	
 	let name = document.createElement("H1");
-	let nameText = document.createTextNode("Victor M. Linuz");
+	let nameText = document.createTextNode("Dave A. Levine");
 	name.appendChild(nameText);
 	div2.appendChild(name);
 	
